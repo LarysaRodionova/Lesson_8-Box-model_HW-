@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color:#070707;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+/* ------------------------Header----------------- */
+
+.header {
+    max-width: 1040px;
+    margin: 0 auto;
+    
+
+}
+.logo {
+    display: inline;
+    margin-right: 5px;
+    padding: 4px;
+}
+.menu {
+    margin: 0;
+    padding:  4px;
+    list-style-type: none;
+    
+    }
+.menu_nav li {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    margin-right: 5px;
+    padding: 4px;
+}
+.product_menu {
+    color: #FF9900;
+    
+}
+.singup_button {
+    box-sizing: border-box;
+    border: 1px solid #070707;
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px;
+}
+/* ------------------------First screen----------------- */
+
+.main button {
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    color:white;
+    padding: 5px;
+    background-color: #FF9900;
+    font-weight: 900;
+}
+
+/*--.first_screen_img {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(../assets/img/Oval.jpg) no-repeat  center;
+    background-size: 100% 100%;
+    position: relative;
+    }
+.first_screen_img::after {
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+    background-image: url(../assets/img/funny_people.jpg);
+    background-size: 100% 100%;
+}--*/
